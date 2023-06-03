@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@font-face {
+    font-family: gretaros;
+    src: url(../fontes/Gretaros-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: #000000;
+}
+
+/*---------------------- Nav ----------------------*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1;
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+}
+
+nav section{
+    display: flex;
+    align-items: center;
+    gap: 0.3vw;
+    margin-right: 45px;
+    height: 50px;
+}
+
+nav section p {
+    font-size: 1.1vw;
+    font-family: 'Roboto', sans-serif;
+    color: #fafafa;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    padding: 7px;
+    cursor: pointer;
+    text-decoration: underline 1px;
+    text-decoration-color: #ffffffa0;
+    text-underline-offset: 12px;
+}
+
+/*---------------------- header ----------------------*/
+header .header-logo{
+    width: 14%;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+}
+
+header .header-img{
+    width: 100%;
+    opacity: 0.6;
+}
+
+header .section-headear {
+    width: 50vw;
+    margin-left: 1%;
+    top: 12vw;
+    position: absolute;
+    padding: 1.09vw;
+}
+
+header .section-headear h1 {
+    font-size: 4vw;
+    line-height: 4.3vw;
+    letter-spacing: 2.5px;
+    font-family: gretaros;
+    color: #ffffff;
+    text-align: start;
+}
+
+header .section-headear h1 span{
+    color: #DAA520;
+}
+
+header .section-headear p {
+    font-size: 1.6vw;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 2.2vw;
+    margin-top: 1vw;
+    text-align: start;
+}
+
+header .section-headear div{
+    margin-top: 2.7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+header .section-headear button.btn-Agende-hr{
+    height: 4.3vw;
+    width: 18vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    background-color: #CD0000;
+    border: none;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 1.25vw;
+    border-radius: 3vw;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+}
+
+header .section-headear  button.btn-saiba-mais{
+    height: 4.3vw;
+    width: 18vw;
+    font-size: 1.2vw;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    border: solid 1px #ffffff;
+    color: #ffffff;
+    font-weight: 300;
+    padding: 1.25vw;
+    border-radius: 3vw;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+}
+
+/*---------------------- Main ----------------------*/
+
+main{
+    position: relative;
+    margin-top: -5px;
+    background-color: #ffffff;
+    padding-bottom: 8vw;
+}
+
+/*---------------------- container-p1 ----------------------*/
+main .container-p1{
+    color: #ffffff;
+    text-align: center;
+    padding: 8vw 0vw;
+    background-color: #000000;
+}
+
+
+main .container-p1 h1{
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 1.3vw;
+}
+
+main .container-p1 .line{
+    width: 4vw;
+    height: 0.3vw;
+    background-color: #DAA520;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.3vw;
+}
+
+main .container-p1 h1 span{
+    color: #DAA520;
+}
+
+main .container-p1 .span-text{
+    font-size: 1.3vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+main .container-p1 p{
+    font-size: 1.1vw;
+    font-family: 'Inter', sans-serif;
+    width: 60vw;
+    line-height: 1.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    font-weight: 200;
+}
+
+main .container-p1 section{
+    margin-top: 7vw;
+}
+
+main .container-p1 section .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+main .container-p1 .content img{
+    width: 30%;
+}
+
+/*---------------------- container-p2 ----------------------*/
+main .container-p2{
+    background-color: #ffffff;
+    padding: 3vw 0vw;
+}
+
+main .container-p2 h1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+
+main .container-p2 h1 span{
+    color: #DAA520;
+}
+
+main .container-p2 .line{
+    width: 4vw;
+    height: 0.3vw;
+    background-color: #DAA520;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.3vw;
+}
+
+main .container-p2 h2{
+    font-size: 1.1vw;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 1vw;
+    font-weight: 400;
+    color: #000000;
+}
+
+main .container-p2 section{
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+main .container-p2 section .content{
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 1.9vw 2vw 1.9vw;
+    border: #000000 solid 2px;
+}
+
+main .container-p2 section .content img{
+    width: 6.2vw;
+    margin-right: auto;
+    margin-bottom: 1.3vw;
+}
+
+main .container-p2 section .content h3{
+    text-align: start;
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+
+main .container-p2 section .content p{
+    font-size: 1.2vw;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7vw;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 0.2vw;
+    text-align: start;
+}
+
+/*---------------------- container-p3 ----------------------*/
+main .container-p3{
+    background-color: #ffffff;
+    padding: 10vw 0vw;
+}
+
+main .container-p3 h1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-bottom: 3vw;
+}
+
+main .container-p3 h1 span{
+    color: #DAA520;
+}
+
+main .container-p3 .owl-theme {
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .container-p3 .owl-theme .item {
+    width: 20vw;
+    background-color: #f7f7f7;
+    padding: 1.3vw 1vw 2vw 1vw;
+    height: 25vw;
+}
+
+main .container-p3 .owl-theme .item h2{
+    text-align: start;
+    font-size: 1.4vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #1C1C1C;
+    margin-bottom: 0.7vw;
+}
+
+main .container-p3 .owl-theme .item p{
+    font-size: 1.2vw;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7vw;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 0.3vw;
+    text-align: start;
+}
+
+main .container-p3 .owl-theme .item h3{
+    text-align: start;
+    font-size: 1.2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 1.5vw;
+    margin-bottom: 0.2vw;
+}
+
+main .container-p3 .owl-theme .item .img-client{
+    width: 6vw;
+    margin-bottom: 1vw;
+}
+
+main .container-p3 .owl-theme .item .img-rating-stars{
+    width: 5vw;
+}
+
+/*---------------------- container-p4 ----------------------*/
+main .container-p4{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+main .container-p4 section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .container-p4 section div{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35vw;
+}
+
+main .container-p4 section div h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1vw;
+}
+
+main .container-p4 section div span{
+    color: #DAA520;
+}
+
+main .container-p4 .line{
+    width: 4vw;
+    height: 0.3vw;
+    background-color: #DAA520;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1vw;
+}
+
+main .container-p4 section div p{
+    font-size: 1.2vw;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7vw;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 1vw;
+    text-align: center;
+}
+
+main .container-p4 section div input{
+    width: 20vw;
+    height: 2.3vw;
+    margin-top: 0.9vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7px;
+    outline: none;
+    border: none;
+    border-radius: 0.2vw;
+}
+
+main .container-p4 section div button{
+    width: 20vw;
+    height: 3.2vw;
+    margin-top: 1.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2vw;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    background-color: #CD0000;
+    border: none;
+    color: #ffffff;
+    font-weight: 300;
+    border-radius: 3vw;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+}
+
+/*---------------------- Footer ----------------------*/
+
+footer{
+    background-color: #000000;
+    padding: 1vw 0vw;
+}
+
+footer img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9%;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 2vw;
+}
+
+footer section .content{
+    color: #ffffff;
+    padding: 0vw 2vw;
+}
+
+footer section .content .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+footer section .content .icon img{
+    cursor: pointer;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+footer section .content p{
+    margin-top: 2vw;
+    font-size: 1vw;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7vw;
+    font-weight: 300;
+    color: #ffffff;
+}
